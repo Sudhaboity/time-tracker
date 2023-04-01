@@ -19,7 +19,10 @@ pipeline {
 
         stage ('Deployments'){
                     steps {
-                       echo 'depploy'
+                       sshagent(['tomcat']) {
+       sh "scp **/target/*.war ec2-user@13.233.117.239:/usr/share/tomcat/webapps"
+
+}
                     }
                 }
             }
