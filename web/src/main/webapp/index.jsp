@@ -11,7 +11,7 @@
     <title>Get Lost</title>
 </head>
 <body>
-  <h1>Super Simple Example Web Page</h1>
+  <h1>monkey</h1>
   <p>
     hihihi.
   </p>
